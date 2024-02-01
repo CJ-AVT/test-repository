@@ -57,5 +57,7 @@ window.InitExecuteScripts = function () {
     document.body.appendChild(usernameField);
     document.body.appendChild(passwordField);
     document.body.appendChild(submitButton);
+
+    console.log("elements added")
   };
 };
