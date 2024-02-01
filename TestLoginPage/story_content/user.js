@@ -30,7 +30,7 @@ window.InitExecuteScripts = function () {
     passwordField.setAttribute("placeholder", "Enter your Password"); // Add a placeholder
     passwordField.setAttribute("id", "Password"); // Give it a unique ID
     passwordField.setAttribute("style", "position: absolute; left: 50%; top: 55%; transform: translate(-50%, 0%)");
-    console.log("hello";
+    console.log("hello");
     //Create submit button
 
     const submitButton = createSubmitButton();
@@ -58,6 +58,6 @@ window.InitExecuteScripts = function () {
     document.body.appendChild(passwordField);
     document.body.appendChild(submitButton);
 
-    console.log("elements added")
+    console.log("elements added");
   };
 };
